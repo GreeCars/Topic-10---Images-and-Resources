@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Topic_10___Images_and_Resources
 {
-    public partial class Form1 : Form
+    public partial class FormAddResources : Form
     {
-        public Form1()
+        public FormAddResources()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Topic_10___Images_and_Resources
 {
-    partial class Form1
+    partial class FormAddResources
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.imgMario = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMario)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // imgMario
+            // 
+            this.imgMario.Location = new System.Drawing.Point(448, 195);
+            this.imgMario.Name = "imgMario";
+            this.imgMario.Size = new System.Drawing.Size(100, 50);
+            this.imgMario.TabIndex = 0;
+            this.imgMario.TabStop = false;
+            // 
+            // FormAddResources
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.imgMario);
+            this.Name = "FormAddResources";
+            this.Text = "Resources";
+            ((System.ComponentModel.ISupportInitialize)(this.imgMario)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox imgMario;
     }
 }
 
