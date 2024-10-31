@@ -16,5 +16,17 @@ namespace Topic_10___Images_and_Resources
         {
             InitializeComponent();
         }
+
+        private void imgMario_Click(object sender, EventArgs e)
+        {
+            imgMario.Image = Properties.Resources.MarioAwake;
+            imgSleep.Visible = true;
+        }
+
+        private void imgSleep_Click(object sender, EventArgs e)
+        {
+            imgMario.Image = Properties.Resources.MarioSleep;
+            imgSleep.Visible = false;
+        }
     }
 }
